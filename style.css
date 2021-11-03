@@ -1,0 +1,62 @@
+main, article, footer, div {
+  
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
+}
+
+ul,ol{
+ 
+  text-align: center;
+  list-style-position: inside;
+  
+}
+header h1,h3{
+  font-style:oblique;
+  margin-top: 0px;
+  margin-bottom: 3px;
+  
+ 
+}
+
+body {
+  background-color:#FFFCF7;
+  
+}
+
+header {
+  background-color:#527642 ;
+  color: #FFFCF7;
+   text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ 
+  
+}
+  
+
+footer{
+  background-color:#527642 ;
+  color: #FFFCF7;
+  
+}
+ /* image class */
+.image{
+  margin-top: 25px;
+  margin-bottom: 10px;
+  border-radius: 133px;
+  padding: 0px;
+  height: 200px ;
+}
+
+a:link{           /* Styled links using pseudo-classes */
+color: green
+}
+a:visited{
+color: purple
+}
+a:hover{
+color: blue
+}
+a:active{
+color: white
+}
